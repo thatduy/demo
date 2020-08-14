@@ -1,11 +1,53 @@
 .App {
   text-align: center;
-  flex-direction: row;
-  display: flex;
+  flex-direction: column;
+display: block;
+position: fixed;
+width: 100%;
 }
 .map {
-  display: flex;
+  position: absolute;
+  width: 100%;
 }
+
+.header {
+  z-index: -1;
+  color: black;
+  background-color: white;
+  width: 100%;
+}
+.wraper-header {
+  flex-direction: row;
+  color: black;
+  display: flex;
+  align-items: center;
+  
+}
+.wrapper-menu-button-left {
+  align-items: left;
+  justify-content: left;
+  width: 20px;
+  margin-left: 10px;
+}
+.icon-menu {
+  width: 25px;
+}
+.button-transparent {
+  background-color: transparent;
+  border: transparent;
+}
+.app-title {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-menu-button-right {
+  align-items: right;
+  justify-content: center;
+  width: 50px;
+  margin-right: 10px;
+}
+
 
 .App-logo {
   height: 20vmin;
@@ -20,8 +62,7 @@
 
 .App-header {
   background-color: #282c34;
-  height: flex;
-  display: flex;
+  z-index: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -40,4 +81,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.navbar {
+  border-bottom: solid 1px #EBEBEB;
+}
+.bottom-tab-nav {
+  border-top: solid 1px #EBEBEB;
+  background-color: white;
+  height: 60px;
+}
+.nav-link,
+.bottom-nav-link {
+  color: #55575b;
+}
+.bottom-nav-link.active {
+  color: red;
+}
+.bottom-tab-label {
+  font-size: 12px;
 }
