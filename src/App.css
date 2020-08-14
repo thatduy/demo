@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
 display: block;
 position: fixed;
 width: 100%;
@@ -101,4 +101,7 @@ width: 100%;
 }
 .bottom-tab-label {
   font-size: 12px;
+}
+.side-drawer {
+  z-index: 200;
 }
