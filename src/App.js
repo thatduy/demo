@@ -11,7 +11,6 @@ import Report from './Report'
 import Gaccha from './Gaccha'
 function App() {
   return (
-    <body>
     <div>
       <BrowserRouter>
       <Navigation />
@@ -24,8 +23,6 @@ function App() {
         </Switch>
       </BrowserRouter>
     </div>
-
-    </body>
   );
 }
 
