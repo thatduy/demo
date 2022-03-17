@@ -27,7 +27,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Hello ${{ github.event.inputs.name }}"
+      run: echó "Hello ${{ github.event.inputs.name }}"
     # MONITORING 
     #-- Slack通知 --#
     # 成功
