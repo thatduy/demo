@@ -2,7 +2,7 @@ import React from 'react';
 const Guide = (props) => {
 return (
     <div className="App">
-        <h1>Guide is coming</h1>
+        <h1>Real is coming</h1>
       </div> 
   )
 };
